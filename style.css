@@ -111,6 +111,7 @@ button:active{
         font-size: 20px;
         max-width: 70%;
         max-height: 40px;
+        
     }
 
     #number-two{
@@ -124,5 +125,4 @@ button:active{
         max-height: 40px;
  
     }
-
 }
