@@ -17,6 +17,8 @@ body{
     min-height: 100vh;
 }
 
+
+
 h2{
     color: #FFFFFF;
     font-weight: 400;
@@ -85,4 +87,35 @@ div{
     line-height: 37.5px;
     text-align: center;
     margin-top: 50px;
+}
+
+
+@media screen and (max-width:747px){
+    img{
+        width: 60%;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    input{
+        font-size: 20px;
+        max-width: 40%;
+        max-height: 40px;
+    }
+
+    #number-two {
+        margin-left: 10px;
+
+    }
+
+    button{
+        font-size: 22px;
+        max-width: 40%;
+        max-height: 40px;
+ 
+    }
+
 }
